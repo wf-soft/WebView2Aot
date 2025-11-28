@@ -4,8 +4,6 @@ VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebView2Aot.InteropBuilder.Cli", "WebView2Aot.InteropBuilder.Cli\WebView2Aot.InteropBuilder.Cli.csproj", "{70C002E7-90FD-432C-B1C9-0EAE73F5BEB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Win32InteropBuilder", "Win32InteropBuilder\Win32InteropBuilder\Win32InteropBuilder.csproj", "{D1EE2752-71AD-630E-A5D9-749F714F7F67}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebView2", "WebView2\WebView2.csproj", "{C693D502-24E2-8CAA-9705-5E9AB645BDCE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWebView2", "HelloWebView2\HelloWebView2.csproj", "{1037821C-7CA4-0C51-5420-908003AC980E}"
@@ -13,6 +11,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScriptHostObjectWebView2", "ScriptHostObjectWebView2\ScriptHostObjectWebView2.csproj", "{C3FE7138-D301-ED12-75D0-56F4287F2F77}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloCompositionWebView2", "HelloCompositionWebView2\HelloCompositionWebView2.csproj", "{D115DEEA-4C61-B362-3729-7D08BB4D95A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Win32InteropBuilder", "..\Win32InteropBuilder\Win32InteropBuilder\Win32InteropBuilder.csproj", "{38C97446-A87F-D21A-F208-52BCBF3AF7F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,18 +36,6 @@ Global
 		{70C002E7-90FD-432C-B1C9-0EAE73F5BEB5}.Release|x64.Build.0 = Release|Any CPU
 		{70C002E7-90FD-432C-B1C9-0EAE73F5BEB5}.Release|x86.ActiveCfg = Release|Any CPU
 		{70C002E7-90FD-432C-B1C9-0EAE73F5BEB5}.Release|x86.Build.0 = Release|Any CPU
-		{D1EE2752-71AD-630E-A5D9-749F714F7F67}.Debug|ARM64.ActiveCfg = Debug|Any CPU
-		{D1EE2752-71AD-630E-A5D9-749F714F7F67}.Debug|ARM64.Build.0 = Debug|Any CPU
-		{D1EE2752-71AD-630E-A5D9-749F714F7F67}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{D1EE2752-71AD-630E-A5D9-749F714F7F67}.Debug|x64.Build.0 = Debug|Any CPU
-		{D1EE2752-71AD-630E-A5D9-749F714F7F67}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{D1EE2752-71AD-630E-A5D9-749F714F7F67}.Debug|x86.Build.0 = Debug|Any CPU
-		{D1EE2752-71AD-630E-A5D9-749F714F7F67}.Release|ARM64.ActiveCfg = Release|Any CPU
-		{D1EE2752-71AD-630E-A5D9-749F714F7F67}.Release|ARM64.Build.0 = Release|Any CPU
-		{D1EE2752-71AD-630E-A5D9-749F714F7F67}.Release|x64.ActiveCfg = Release|Any CPU
-		{D1EE2752-71AD-630E-A5D9-749F714F7F67}.Release|x64.Build.0 = Release|Any CPU
-		{D1EE2752-71AD-630E-A5D9-749F714F7F67}.Release|x86.ActiveCfg = Release|Any CPU
-		{D1EE2752-71AD-630E-A5D9-749F714F7F67}.Release|x86.Build.0 = Release|Any CPU
 		{C693D502-24E2-8CAA-9705-5E9AB645BDCE}.Debug|ARM64.ActiveCfg = Debug|Any CPU
 		{C693D502-24E2-8CAA-9705-5E9AB645BDCE}.Debug|ARM64.Build.0 = Debug|Any CPU
 		{C693D502-24E2-8CAA-9705-5E9AB645BDCE}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -96,6 +84,18 @@ Global
 		{D115DEEA-4C61-B362-3729-7D08BB4D95A6}.Release|x64.Build.0 = Release|x64
 		{D115DEEA-4C61-B362-3729-7D08BB4D95A6}.Release|x86.ActiveCfg = Release|x86
 		{D115DEEA-4C61-B362-3729-7D08BB4D95A6}.Release|x86.Build.0 = Release|x86
+		{38C97446-A87F-D21A-F208-52BCBF3AF7F1}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{38C97446-A87F-D21A-F208-52BCBF3AF7F1}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{38C97446-A87F-D21A-F208-52BCBF3AF7F1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{38C97446-A87F-D21A-F208-52BCBF3AF7F1}.Debug|x64.Build.0 = Debug|Any CPU
+		{38C97446-A87F-D21A-F208-52BCBF3AF7F1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{38C97446-A87F-D21A-F208-52BCBF3AF7F1}.Debug|x86.Build.0 = Debug|Any CPU
+		{38C97446-A87F-D21A-F208-52BCBF3AF7F1}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{38C97446-A87F-D21A-F208-52BCBF3AF7F1}.Release|ARM64.Build.0 = Release|Any CPU
+		{38C97446-A87F-D21A-F208-52BCBF3AF7F1}.Release|x64.ActiveCfg = Release|Any CPU
+		{38C97446-A87F-D21A-F208-52BCBF3AF7F1}.Release|x64.Build.0 = Release|Any CPU
+		{38C97446-A87F-D21A-F208-52BCBF3AF7F1}.Release|x86.ActiveCfg = Release|Any CPU
+		{38C97446-A87F-D21A-F208-52BCBF3AF7F1}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -13,7 +13,7 @@ namespace WebView2Aot.InteropBuilder.Cli
 {
     public static class Win32Metadata
     {
-        public const string WinMdPath = @"E:\smo\GitHub\WebView2Aot\WebView2Aot.InteropBuilder.Cli\";
-        public const string SolutionDir = @"E:\smo\GitHub\WebView2Aot\";
+        public const string WinMdPath = @"d:\Github\WebView2Aot\WebView2Aot.InteropBuilder.Cli\";
+        public const string SolutionDir = @"*Undefined*";
     }
 }

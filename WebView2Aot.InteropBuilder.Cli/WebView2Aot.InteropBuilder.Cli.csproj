@@ -9,13 +9,13 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<Reference Include="DirectN">
-			<HintPath>..\WebView2\External\DirectN.dll</HintPath>
-		</Reference>
+	  <ProjectReference Include="..\..\Win32InteropBuilder\Win32InteropBuilder\Win32InteropBuilder.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\Win32InteropBuilder\Win32InteropBuilder\Win32InteropBuilder.csproj" />
+		<Reference Include="DirectN">
+			<HintPath>..\WebView2\External\DirectN.dll</HintPath>
+		</Reference>
 	</ItemGroup>
 
 	<ItemGroup>
